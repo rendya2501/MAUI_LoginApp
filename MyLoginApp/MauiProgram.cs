@@ -1,5 +1,5 @@
-using MyLoginApp.ViewModels;
-using MyLoginApp.Views;
+using MyLoginApp.Pages.Login;
+using MyLoginApp.Pages.Success;
 
 namespace MyLoginApp;
 

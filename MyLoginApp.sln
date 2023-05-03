@@ -10,6 +10,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ソリューション項目
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicAuthServer", "AuthServer\BasicAuthServer.csproj", "{2EB1D11C-B4D4-4010-9CF1-89583E53F3F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtAuthServer", "JwtAuthServer\JwtAuthServer.csproj", "{B93C8814-309C-4088-80D3-80010FAF8125}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,6 +26,14 @@ Global
 		{F320ED5E-DC90-4EDC-9E08-ADCF3A7E920B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F320ED5E-DC90-4EDC-9E08-ADCF3A7E920B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F320ED5E-DC90-4EDC-9E08-ADCF3A7E920B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2EB1D11C-B4D4-4010-9CF1-89583E53F3F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EB1D11C-B4D4-4010-9CF1-89583E53F3F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EB1D11C-B4D4-4010-9CF1-89583E53F3F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EB1D11C-B4D4-4010-9CF1-89583E53F3F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B93C8814-309C-4088-80D3-80010FAF8125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B93C8814-309C-4088-80D3-80010FAF8125}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B93C8814-309C-4088-80D3-80010FAF8125}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B93C8814-309C-4088-80D3-80010FAF8125}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

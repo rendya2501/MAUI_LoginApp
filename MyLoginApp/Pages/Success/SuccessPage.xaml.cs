@@ -1,4 +1,4 @@
-namespace MyLoginApp.Views;
+namespace MyLoginApp.Pages.Success;
 
 public partial class SuccessPage : ContentPage
 {

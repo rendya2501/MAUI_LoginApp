@@ -1,4 +1,5 @@
-using MyLoginApp.Views;
+using MyLoginApp.Pages.Login;
+using MyLoginApp.Pages.Success;
 
 namespace MyLoginApp;
 
@@ -8,6 +9,7 @@ public partial class AppShell : Shell
 	{
 		InitializeComponent();
 
-        //Routing.RegisterRoute(nameof(SuccessPage), typeof(SuccessPage));
+        Routing.RegisterRoute(nameof(LoginPage), typeof(LoginPage));
+        Routing.RegisterRoute(nameof(SuccessPage), typeof(SuccessPage));
     }
 }

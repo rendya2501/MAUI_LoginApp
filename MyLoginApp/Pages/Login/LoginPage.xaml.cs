@@ -1,6 +1,4 @@
-using MyLoginApp.ViewModels;
-
-namespace MyLoginApp.Views;
+namespace MyLoginApp.Pages.Login;
 
 public partial class LoginPage : ContentPage
 {
